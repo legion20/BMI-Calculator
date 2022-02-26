@@ -1,0 +1,43 @@
+body {
+    background: #667db6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#height, #weight, button{
+    font-size: medium;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+div {
+    background-color: #D3DEDC;
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    border: 5px solid black;
+}
+
+table {
+    margin: auto;
+    text-align: left;
+}
+
+tr {
+    line-height: 40px;
+}
+
+#bmi {
+    color: #362706;
+}
