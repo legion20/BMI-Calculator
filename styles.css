@@ -39,5 +39,11 @@ tr {
 }
 
 #bmi {
-    color: #362706;
+    border: 3px solid #35589A;
+    width: 10%;
+    padding: 5px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    color: #1A374D;
 }
