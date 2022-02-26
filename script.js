@@ -4,5 +4,7 @@ function calculate(){
     let weight = document.getElementById('weight').value;
     let bmi = weight/(height*height);
     
+    document.getElementById('bmi').classList.toggle("bmi");
+
     document.getElementById('bmi').innerHTML = '<strong>' + bmi.toFixed(2) + '</strong>';
 }

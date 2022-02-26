@@ -38,8 +38,11 @@ tr {
     line-height: 40px;
 }
 
-#bmi {
+.bmi{
     border: 3px solid #35589A;
+}
+
+#bmi {
     width: 10%;
     padding: 5px 0;
     margin-left: auto;
