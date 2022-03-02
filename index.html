@@ -10,16 +10,21 @@
 <body>
     <div class="bmi">
         <h1>BMI Calculator</h1>
+        <select name="unit" id="unit" onchange="changeunit()">
+            <option value="Metric">Metric</option>
+            <option value="Standard">Standard</option>
+        </select>
+        <br><br>
         <table>
             <tr>
                 <td>Your Height:</td>
                 <td><input type="text" id="height"></td>
-                <td>(Centimeters)</td>
+                <td id="h-unit">(Meters)</td>
             </tr>
             <tr>
                 <td>Your Weight:</td>
                 <td><input type="text" id="weight"></td>
-                <td>(Kilograms)</td>
+                <td id="w-unit">(Kilograms)</td>
             </tr>
         </table>
         <br>   

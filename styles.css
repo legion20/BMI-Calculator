@@ -29,6 +29,10 @@ div {
     border: 5px solid black;
 }
 
+#unit{
+    font-size: large;
+}
+
 table {
     margin: auto;
     text-align: left;
